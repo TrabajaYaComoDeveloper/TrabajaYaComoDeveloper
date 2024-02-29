@@ -1,0 +1,24 @@
+{
+  "name": "trabajayacomodeveloper",
+  "version": "1.0.0",
+  "description": "Update TrabajaYaComoDeveloper Github Profile",
+  "main": "index.js",
+  "scripts": {
+    "update-readme": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper/issues"
+  },
+  "homepage": "https://github.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper#readme",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
