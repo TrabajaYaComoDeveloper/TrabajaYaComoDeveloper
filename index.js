@@ -1,14 +1,14 @@
+const { read } = require('fs')
 const fs = require('fs').promises
-const Parser = require('rss-parser')
-const parser = new Parser()
+const { getPublicRepositories } = require('./fetchGithubApi.js')
 
-const LATEST_NEWS_PLACEHOLDER = '%{{latest_news}}%'
+const TOTAL_REPOSITORIES_PLACEHOLDER = '%{{total_repositories}}%'
 
 async function readReadmeFile() {
     const filedata = await fs.readFile('./README.md.tpl', { encoding: 'utf-8' })    
-    // const items = await parser.parseURL('https://www.timeanddate.com/index.xml')
-    //console.log(items)
-    const markdownReplaced = filedata.replace(LATEST_NEWS_PLACEHOLDER, 'yii')
+    const markdownReplaced = filedata
+        .replace(TOTAL_REPOSITORIES_PLACEHOLDER, await getPublicRepositories())
+    
     await fs.writeFile('./README.md', markdownReplaced)
 }
 

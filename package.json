@@ -12,13 +12,13 @@
     "url": "git+https://github.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "TrabajaYaComoDeveloper",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper/issues"
   },
   "homepage": "https://github.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper#readme",
   "dependencies": {
-    "rss-parser": "^3.13.0"
+    "octokit": "^3.1.2"
   }
 }
