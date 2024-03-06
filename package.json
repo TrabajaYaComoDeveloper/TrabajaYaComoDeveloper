@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/TrabajaYaComoDeveloper/TrabajaYaComoDeveloper#readme",
   "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "@octokit/types": "^12.6.0",
     "octokit": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
