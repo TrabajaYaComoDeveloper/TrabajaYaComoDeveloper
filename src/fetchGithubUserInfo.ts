@@ -20,10 +20,3 @@ export async function getUserInfo(): Promise<UserReposResponseData> {
         throw error;
     });
 };
-
-async function getData() {
-    const response: UserReposResponseData = await getUserInfo();
-    console.log(response.data.public_repos);
-}
-
-getData();
