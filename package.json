@@ -2,6 +2,7 @@
   "name": "trabajayacomodeveloper",
   "version": "1.0.0",
   "description": "Update TrabajaYaComoDeveloper Github Profile",
+  "type":"module",
   "main": "index.js",
   "scripts": {
     "update-readme": "node index.js",

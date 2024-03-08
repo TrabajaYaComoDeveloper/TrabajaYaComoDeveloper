@@ -1,4 +1,4 @@
-const { Octokit } = require('octokit')
+import { Octokit } from 'octokit';
 
 const octokit = new Octokit({
     auth: process.env.GITHUB_TOKEN
@@ -13,7 +13,7 @@ const githubConfig = {
     per_page: 10    
 }
   
-exports.getPublicRepositories = async function() {
+export async function getPublicRepositories() {
     return octokit.request('GET /users/TrabajaYaComoDeveloper', githubConfig)
         .then(response => handleResponseSuccess(response) )
         .catch(err => {
