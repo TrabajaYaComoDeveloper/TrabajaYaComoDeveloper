@@ -21,6 +21,7 @@ export async function getPublicRepositories() {
             throw err
         })
 }
+
 function handleResponseSuccess(response) {
     console.log(response)
     return response.data.public_repos

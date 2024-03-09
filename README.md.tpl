@@ -4,7 +4,7 @@
 
 ¿Y mi historia?
 
-- Empecé en 2011 como Mobile Developer.
+- Empecé en 2011 como Mobile Developer (android, iOS, Webapps).
 - En 2014 me dió por crear una startup (Heygo) con 2 socios más.
 - En 2018 empecé el rol de Technical Lead.
 - Y actualmente soy Engineering Manager.
